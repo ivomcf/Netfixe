@@ -1,4 +1,4 @@
-<b>NETFIXE</b>
+<title></title>
 
 This is an app made for rating movies and series.
 It takes into account, different categories, most viewed, recomended, release date.
