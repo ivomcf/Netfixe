@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
@@ -14,43 +15,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonHome"
-        android:text="Home"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:text="Home" />
 
     <Button
         android:id="@+id/buttonSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:onClick="buttonSettings"
-        android:text="Settings"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:text="Settings" />
 
     <Button
         android:id="@+id/buttonMovies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:onClick="buttonMovies"
-        android:text="Movies"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="91dp" />
+        android:text="Movies" />
 
     <Button
         android:id="@+id/buttonSeries"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:onClick="buttonSeries"
-        android:text="Series"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="154dp" />
+        android:text="Series" />
 
     <Button
         android:id="@+id/buttonNews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:onClick="buttonNews"
-        android:text="News"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="216dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="News" />
+</LinearLayout>
