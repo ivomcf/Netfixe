@@ -11,6 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,14 +22,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -52,4 +45,50 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void buttonHome(View view) {
+
+        Toast.makeText(
+                this,
+                "Home",
+                Toast.LENGTH_LONG).show();
+
+    }
+
+    public void buttonSettings(View view) {
+
+        Toast.makeText(
+                this,
+                "Settings",
+                Toast.LENGTH_LONG).show();
+
+    }
+
+    public void buttonMovies(View view) {
+
+        Toast.makeText(
+                this,
+                "Movies",
+                Toast.LENGTH_LONG).show();
+
+    }
+
+    public void buttonSeries(View view) {
+
+        Toast.makeText(
+                this,
+                "Series",
+                Toast.LENGTH_LONG).show();
+
+    }
+
+    public void buttonNews(View view) {
+
+        Toast.makeText(
+                this,
+                "News",
+                Toast.LENGTH_LONG).show();
+
+    }
+
 }
