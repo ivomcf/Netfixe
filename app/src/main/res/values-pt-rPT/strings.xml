@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Netfixe</string>
+    <string name="menu_news">Notícias</string>
+    <string name="action_settings">Definições</string>
+    <string name="emptyFields">Campos Vazios</string>
+    <string name="welcome">Bem-vindo,</string>
+    <string name="password">" Palavra-passe:"</string>
+    <string name="passwordHint">Palavra-passe</string>
+    <string name="saveButton">Guardar</string>
+    <string name="usernameHint">Utilizador</string>
+    <string name="buttonCancel">Cancelar</string>
+</resources>

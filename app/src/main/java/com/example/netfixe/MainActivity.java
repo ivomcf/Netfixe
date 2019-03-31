@@ -1,5 +1,6 @@
 package com.example.netfixe;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -56,7 +57,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonSettings(View view) {
-
+// TODO navegar pro SETTINGS ACTIVITY
+        startActivity(new Intent(this, SettingsActivity.class));
         Toast.makeText(
                 this,
                 "Settings",

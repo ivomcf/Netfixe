@@ -10,54 +10,46 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <Button
-        android:id="@+id/buttonHome"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="buttonHome"
-        android:text="Home" />
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="8dp">
 
-    <Button
-        android:id="@+id/buttonSettings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="buttonSettings"
-        android:text="Settings" />
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonHome"
+            android:text="Home" />
 
-    <Button
-        android:id="@+id/buttonMovies"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="buttonMovies"
-        android:text="Movies" />
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonSettings"
+            android:text="Settings" />
 
-    <Button
-        android:id="@+id/buttonSeries"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="buttonSeries"
-        android:text="Series" />
+        <Button
+            android:id="@+id/buttonMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonMovies"
+            android:text="Movies" />
 
-    <Button
-        android:id="@+id/buttonNews"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="buttonNews"
-        android:text="News" />
+        <Button
+            android:id="@+id/buttonSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonSeries"
+            android:text="Series" />
+
+        <Button
+            android:id="@+id/buttonNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonNews"
+            android:text="@string/menu_news" />
+    </LinearLayout>
 </LinearLayout>
